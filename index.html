@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Maheshwar Rao Portfolio</title>
+<link rel="shotcut icon" href="assets/icon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body id="body" class="dark">
+<!-- partial:index.partial.html -->
+<section class="hero is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3 is-flex">
+          <div class="column-child sidebar shadow">
+            <div class="sidebar-header has-text-centered">
+              <img
+                src="assets/avatar.png" id="1" alt="Avatar"
+                class="sidebar-image">
+              <h2 class="header-name">Maheshwar Rao</h2>
+              <h5>Web Developer</h5>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/maheshwar.rao.165" target="_blank"><i class="fab fa-facebook icon"></i></a>
+                <a href="https://twitter.com/MaheshwarRao19" target="_blank"><i class="fab fa-twitter icon"></i></a>
+                <a href="https://www.linkedin.com/in/c-maheshwar-rao-13ab70182/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a>
+                <a href="https://github.com/Rawhseham" target="_blank"><i class="fab fa-github icon"></i></a>
+                <a href="https://www.instagram.com/rawhseham" target="_blank"><i class="fab fa-instagram icon"></i></a>
+              </div>
+              <div class="resume">
+                <a href="assets/resume.pdf" target='_blank' class="sidebar-link">
+                  Resume
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-flex">
+          <div class="column-child terminal shadow">
+            <div class="terminal-bar dark-mode">
+              <div class="icon-btn close"></div>
+              <div class="icon-btn min"></div>
+              <div class="icon-btn max"></div>
+              <div class="btn"> <button onclick="toggleImage(),darkmode()" class="icon-btn switch"></button></div>
+              <div class="terminal-bar-text is-hidden-mobile dark-mode-text">guest@mahesh: ~</div>
+            </div>
+            <div class="terminal-window primary-bg" onclick="document.getElementById('dummyKeyboard').focus();">
+              <div class="terminal-output" id="terminalOutput">
+                <div class="terminal-line">
+                  <span class="help-msg">Welcome to mahesh portfolio — Type <span class="code">help</span>
+                    for a list of supported commands.</span>
+                </div>
+              </div>
+              <div class="terminal-line">
+                <span class="success">➜</span> <span class="directory">~</span> <span class="user-input"
+                  id="userInput"></span>
+                <input type="text" id="dummyKeyboard" class="dummy-keyboard">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Made with <i class="fas fa-heart icon"></i> by <a href="https://rawhseham.github.io/" class="site">Maheshwar Rao.</a>
+      </p>
+    </div>
+  </footer>
+</section>
+<!-- partial -->
+  <script src='https://use.fontawesome.com/releases/v5.3.1/js/all.js'></script><script  src="./script.js"></script>
+  <script  src="./dark.js"></script>
+
+</body>
+</html>
