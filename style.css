@@ -115,9 +115,6 @@ h5{
     margin-bottom: 0.5rem;
 }
 
-.btn{
-    padding-left: 8px;
-}
 
 .terminal-bar > div.icon-btn:first-child {
     margin-left: 0.6rem;
@@ -146,8 +143,12 @@ h5{
 .switch{
     height: 15px;
     width: 15px;
-    background-color: rgb(111, 116, 221);
+    background-color: rgb(138, 138, 153);
     border: none;
+    border-radius: 20px;
+    top: 9px;
+    left: 9px;
+    position: absolute;
 }
 
 .terminal-window {
